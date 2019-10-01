@@ -8981,11 +8981,14 @@ ul#mainnav li a {
     color: #fff
 }
 
-ul#mainnav>li>a:hover>span {
-    border-bottom: 1px solid #323232;
-    padding-bottom: 2px
-}
 
+/*annulation du soulignement des menus en hover et changement de la couleur lv*/
+/*
+ul#mainnav>li>a:hover>span {
+    border-bottom:1px solid #323232;padding-bottom:2px
+    color: var(--color-primary);
+}
+*/
 ul#mainnav>li.item-active>a {
     color: #323232
 }
@@ -9509,7 +9512,7 @@ ul#filters li a.selected {
 }
 
 a.comment-reply-link:hover {
-    background: #fe7e17
+    background: var(--color-primary)
 }
 
 ul.tabs li.active {
@@ -9647,7 +9650,7 @@ ul#filters li.selected a {
 }
 
 .team-social a {
-    padding: 9px;
+    /*padding: 9px;*/
     display: inline-block;
     color: #848484
 }
@@ -11320,14 +11323,14 @@ ul#social li a:hover {
 }
 
 .orange {
-    background: #fe7e17;
+    background: var(--color-primary);
     border: 0 none;
     color: #fff
 }
 
 .orange.alt {
-    border: 1px solid #fe7e17;
-    color: #fe7e17
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary)
 }
 
 .orange:hover {
@@ -11352,7 +11355,7 @@ ul#social li a:hover {
 
 .black:hover {
     color: #fff;
-    background: #222
+    /*background: rgba(254,126,23, 1)/*#222*/;/*changement de couleur backround en hover lv*/
 }
 
 .black.alt:hover {
@@ -11852,21 +11855,21 @@ html .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-activ
 }
 
 .tp-caption.black .orange-captions h1 {
-    color: #FE7E17;
-    border-color: #FE7E17
+    color: var(--color-primary);
+    border-color: var(--color-primary)
 }
 
 .orange-captions .fancy-slider-caption {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .orange-captions .fancy-slider-info {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .orange-captions .fancy-slider-info:before,
 .orange-captions .fancy-slider-info:after {
-    border-color: #FE7E17
+    border-color: var(--color-primary)
 }
 
 #bottomfooter.cfooter div[class*="percent-"] {
@@ -13452,7 +13455,7 @@ div.dark_square #pp_full_res .pp_inline {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-lg {
@@ -17669,7 +17672,7 @@ html .wpb_btn-primary.active {
 }
 
 html .wpb_btn-warning {
-    background-color: #fe7e17
+    background-color: var(--color-primary)
 }
 
 html .wpb_btn-warning:hover,
@@ -18906,50 +18909,50 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 a {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 #spinner:before {
-    border-top-color: #FE7E17;
-    border-left-color: #FE7E17;
-    border-right-color: #FE7E17
+    border-top-color: var(--color-primary);
+    border-left-color: var(--color-primary);
+    border-right-color: var(--color-primary)
 }
 
 #qLbar {
-    background: #FE7E17;
-    color: #FE7E17
+    background: var(--color-primary);
+    color: var(--color-primary)
 }
 
 .widget .tagcloud a:hover {
-    background: #FE7E17;
+    background: var(--color-primary);
     color: #fff
 }
 
 .widget-tweet-text a {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .next-prev-posts a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .nav-btn:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .share-options a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul#mainnav > li.highlighted-state > a span,
 ul#mainnav > li.current > a span {
-    color: #FE7E17;
-    border-bottom: 1px solid #FE7E17;
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
     padding-bottom: 2px
 }
 
 .dark-header ul#mainnav>li>a:hover>span {
-    border-bottom: 1px solid #FE7E17 !important
+    border-bottom: 1px solid var(--color-primary) !important
 }
 
 .dark-header ul#mainnav > li.item-active > a,
@@ -18960,166 +18963,166 @@ ul#mainnav > li.current > a span {
 .dark-header ul#mainnav li a:hover,
 .dark-header ul#mainnav li a:active,
 .dark-header ul#mainnav li a.current-menu-item {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .skillbar-bar {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .wrapper-service i {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .tweet_time a:hover,
 a.tweet_action:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .team-text h3 span {
-    border-bottom: 1px solid #FE7E17
+    border-bottom: 1px solid var(--color-primary)
 }
 
 .testimonial-name {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .dt-service-item:hover {
-    background: #FE7E17;
-    border: 1px solid #FE7E17
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary)
 }
 
 h1.section-title:after {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .team-social a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .service-item i {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 h1.masonry-title a:hover,
 h3.masonry-title a:hover,
 .post-content h1 a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .wrap ul.wrap-nav > li a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .wrap ul.wrap-nav li.current>a {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul#social li a:hover {
-    border-color: #FE7E17
+    border-color: var(--color-primary)
 }
 
 #header-social a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul#mainnav li ul li a:hover,
 ul#mainnav li ul li ul li a:hover,
 .dark-header ul#mainnav li ul li a:hover,
 .dark-header ul#mainnav li ul li ul li a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .tags ul li a:hover {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .sidebar-post span a {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul#filters li a.selected {
-    border: 1px solid #FE7E17;
+    border: 1px solid var(--color-primary);
     color: #323232
 }
 
 h1.masonry-title a:hover,
 .post-content h1 a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 a.comment-reply-link:hover {
-    background: #FE7E17;
+    background: var(--color-primary);
     color: #fff !important
 }
 
 ul.tabs li.active {
-    border-top: 2px solid #FE7E17;
+    border-top: 2px solid var(--color-primary);
     top: 1px
 }
 
 .featured-column .column-shadow {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .featured-column .package-title {
-    border-bottom: 3px solid #FE7E17;
-    background: #FE7E17;
+    border-bottom: 3px solid var(--color-primary);
+    background: var(--color-primary);
     border-right: 0
 }
 
 .customlist li i {
-    color: #FE7E17;
+    color: var(--color-primary);
     font-size: 14px
 }
 
 .widget a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul.tags a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .authorp h2 a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .comment a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 #toggle-view li.activated h3 {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 ul#filters li a:hover {
-    border: 1px solid #FE7E17;
+    border: 1px solid var(--color-primary);
     color: #323232
 }
 
 ul#filters li.selected a {
     color: #fff;
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .portfolio h3 a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .pagenav a:hover {
-    background: #FE7E17;
+    background: var(--color-primary);
     color: #fff;
-    border: 1px solid #FE7E17
+    border: 1px solid var(--color-primary)
 }
 
 span.current-menu-item {
-    background: #FE7E17;
-    border: 1px solid #FE7E17
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary)
 }
 
 #footer a:hover {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .toggle-plus {
@@ -19138,7 +19141,7 @@ span.current-menu-item {
 .toggle-minus {
     width: 28px;
     height: 28px;
-    color: #FE7E17;
+    color: var(--color-primary);
     top: 14px !important
 }
 
@@ -19147,21 +19150,21 @@ span.current-menu-item {
 }
 
 .jp-play-bar {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .jp-volume-bar-value {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 html .wpb_content_element .wpb_tabs_nav li.ui-state-active {
-    border-top: 2px solid #FE7E17;
+    border-top: 2px solid var(--color-primary);
     top: 1px
 }
 
 html .wpb_tour.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-active {
     border-top: none;
-    border-left: 2px solid #FE7E17;
+    border-left: 2px solid var(--color-primary);
     top: 0
 }
 
@@ -19171,25 +19174,25 @@ html .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-activ
 
 html .wpb_accordion .wpb_accordion_wrapper .ui-state-active a,
 html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 html h4.wpb_toggle_title_active,
 html h4.wpb_toggle.wpb_toggle_title_active:after {
-    color: #FE7E17
+    color: var(--color-primary)
 }
 
 .bold-fill .dt-service-icon i {
-    background: #FE7E17
+    background: var(--color-primary)
 }
 
 .thin-fill .dt-service-icon i {
-    border: 1px solid #fe7e17;
-    color: #fe7e17
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary)
 }
 
 .no-fill .dt-service-icon i {
-    color: #fe7e17
+    color: var(--color-primary)
 }
 
 .vc_non_responsive .vc_row .vc_col-sm-1,
@@ -37239,5 +37242,6 @@ body .wpb_gallery_slides ul li {
 }
 
 .vc_grid-item-mini .added_to_cart.wc-forward {
-    display: none;
+    display: none
 }
+

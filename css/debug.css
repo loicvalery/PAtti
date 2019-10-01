@@ -1,0 +1,63 @@
+/*test changement couleurs principale*/
+:root{
+  --color-primary:#fe7e17;
+}
+
+/*annulation du soulignement du menus de navigation en hover et changement de la couleur ligne 8987*/
+
+ul#mainnav>li>a:hover>span {
+   /* border-bottom:1px solid #323232;padding-bottom:2px*/
+    color: var(--color-primary);
+}
+.black:hover {
+    background: rgba(254,126,23, 1)/*#222*/;/*changement de couleur backround en hover du bouton "send" ligne 11356 lv*/
+}
+
+/*ajout et gestion des bordures icones resaux sociaux team*/
+.team-social a{
+    border:0.1rem #848484 solid;
+    height: 34px;
+    width: 34px;
+    margin: 0.5rem;
+    padding: 5px;
+}
+
+.team-social a:hover{
+  border:0.1rem var(--color-primary) solid;
+
+}
+/*-----------------------------*/
+
+/*déplacement ligne 1166 du fichier index.html et modification background section partenaires lv*/
+.darker-overlay{
+  padding-top: 20px;
+  background-color: #00c1cf;
+}
+
+/*placement section team*/
+.section_team{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items:center;
+}
+.team-member{
+  width:30rem;
+}
+
+@media all and (max-width: 990px) {
+  .section_team{
+    display: flex;
+    flex-direction: column;
+  }
+  .team-member{
+     width: 100%;
+  }
+
+}
+
+@media (max-width: 540px){
+  #options{
+    margin-left:15%;
+  }
+}
+
